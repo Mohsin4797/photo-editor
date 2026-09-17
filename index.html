@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="root.css">
+</head>
+<body>
+<div class="main">
+    <div class="left">
+       <label class="btn" for="photo" class="choose-photo">
+    Choose Photo
+</label>
+    
+     <input type="file" id="photo" class="pic" hidden>
+        <button class="btn reset" id="reset"> Reset</button>
+        <button class="btn download" id="download"> download</button>
+             <div class="preset"></div>
+    </div>
+    
+    <section>
+
+    <div class="right">
+        <i class="fa-regular fa-image"></i> 
+        <canvas id="image-canvas"></canvas>
+             
+    </div>
+     <div class="filter">
+           <div> <h3>Filters</h3></div>
+           <h2>preset</h2>
+        </div>
+   
+
+    </section>
+    
+           </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
